@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanelli\Comments;
+namespace Lishuji\Comments;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;

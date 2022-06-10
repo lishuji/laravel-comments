@@ -1,9 +1,9 @@
 <?php
 
-namespace Kanelli\Comments\Events;
+namespace Lishuji\Comments\Events;
 
 use Illuminate\Queue\SerializesModels;
-use Kanelli\Comments\Comment;
+use Lishuji\Comments\Comment;
 
 class CommentCreated
 {

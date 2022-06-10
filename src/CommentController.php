@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanelli\Comments;
+namespace Lishuji\Comments;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Config;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Kanelli\Comments;
+namespace Lishuji\Comments;
 
 use Illuminate\Database\Eloquent\Model;
-use Kanelli\Comments\Events\CommentCreated;
-use Kanelli\Comments\Events\CommentUpdated;
-use Kanelli\Comments\Events\CommentDeleted;
+use Lishuji\Comments\Events\CommentCreated;
+use Lishuji\Comments\Events\CommentUpdated;
+use Lishuji\Comments\Events\CommentDeleted;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Facades\Config;
 

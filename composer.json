@@ -1,5 +1,5 @@
 {
-    "name": "kanelli/comments",
+    "name": "lishuji/laravel-comments",
     "description": "Comments for Laravel9.",
     "keywords": [
         "laravel9",
@@ -8,7 +8,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "kanelli"
+            "name": "lishuji"
         }
     ],
     "require": {
@@ -24,13 +24,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Kanelli\\Comments\\": "src/"
+            "Lishuji\\Comments\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Kanelli\\Comments\\ServiceProvider"
+                "Lishuji\\Comments\\ServiceProvider"
             ]
         }
     }

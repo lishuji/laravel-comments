@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanelli\Comments;
+namespace Lishuji\Comments;
 
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\App;

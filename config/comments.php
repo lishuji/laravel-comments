@@ -7,17 +7,17 @@ return [
      * CustomComment model extending the Comment model shipped with the
      * package and change this configuration option to their extended model.
      */
-    'model' => \Kanelli\Comments\Comment::class,
+    'model' => \Lishuji\Comments\Comment::class,
 
     /**
      * You can customize the behaviour of these permissions by
      * creating your own and pointing to it here.
      */
     'permissions' => [
-        'create-comment' => 'Kanelli\Comments\CommentPolicy@create',
-        'delete-comment' => 'Kanelli\Comments\CommentPolicy@delete',
-        'edit-comment' => 'Kanelli\Comments\CommentPolicy@update',
-        'reply-to-comment' => 'Kanelli\Comments\CommentPolicy@reply',
+        'create-comment' => 'Lishuji\Comments\CommentPolicy@create',
+        'delete-comment' => 'Lishuji\Comments\CommentPolicy@delete',
+        'edit-comment' => 'Lishuji\Comments\CommentPolicy@update',
+        'reply-to-comment' => 'Lishuji\Comments\CommentPolicy@reply',
     ],
 
     /**
@@ -26,7 +26,7 @@ return [
      * You can use the \Laravelista\Comments\CommentControllerInterface
      * or extend the \Laravelista\Comments\CommentController.
      */
-    'controller' => '\Kanelli\Comments\WebCommentController',
+    'controller' => '\Lishuji\Comments\WebCommentController',
 
     /**
      * Disable/enable the package routes.
